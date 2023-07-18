@@ -7,7 +7,7 @@ from_dir = "C:/Users/ADMIN/Downloads"
 to_dir = "C:/WhiteHatJr/dowanloadedimages"
 
 list_of_files = os.listdir(from_dir)
-#print(list_of_files)
+print(list_of_files)
 
 # Move All Image files from Downloads Folder to Another Folder
 for file_name in list_of_files:
